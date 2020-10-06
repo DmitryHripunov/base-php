@@ -1,0 +1,237 @@
+@charset "UTF-8";
+
+body {
+	background: #333333;
+	padding: 20px;
+	margin: 0;
+	color: #000000;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+}
+
+div {
+	border: none;
+	font-size: 1em;
+}
+
+tr td {
+	font-size: 1em;
+	border: none;
+}
+
+img {
+	border: none;
+}
+
+a {
+	text-decoration: underline;
+	color: #333;
+}
+
+a:hover {
+	color: #00a0de;
+	text-decoration: underline;
+}
+
+.header {
+	display: flex;
+	flex-wrap: wrap;
+	max-width: 1200px;
+	padding: 0;
+	margin: 0 auto;
+	border: none;
+}
+
+.logo {
+	margin: 0 10px 0 0;
+	padding: 0;
+	border: none;
+	display: block;
+	width: 100%;
+}
+
+.logo img {
+	border: none;
+}
+
+.main-menu {
+
+	margin: 0;
+	padding: 0;
+	clear: both;
+	font-size: 16px;
+}
+
+.nav-item {
+	list-style: none;
+	float: left;
+	background: url("../img/top-menu-bg.gif") bottom repeat-x #efefef;
+	margin: 0 3px 0 0;
+	padding: 0;
+}
+
+.main-menu.bottom {
+	display: flex;
+	flex-direction: column;
+	max-width: 80px;
+	float: none;
+	font-size: 12px;
+}
+
+.nav-menu {
+	padding: 6px 10px;
+	text-decoration: none;
+	display: block;
+	color: #999999;
+	/*max-width: 150px;*/
+	/*white-space: nowrap;*/
+	/*overflow: hidden;*/
+	/*text-overflow: ellipsis;*/
+}
+
+.nav-menu-active {
+	text-decoration: underline;
+}
+
+.main-menu li a:hover {
+	padding: 6px 10px;
+	text-decoration: none;
+	display: block;
+	color: #ffffff;
+	background: url("../img/fl-bg-hover.gif") bottom repeat-x #67bdff;
+}
+
+.clearfix::after {
+	content: "";
+	display: table;
+	clear: both;
+}
+
+.auth-table {
+	margin-left: auto;
+}
+
+.left-collum-index {
+	background: #ffffff;
+	margin: 0;
+	padding: 10px;
+	width: 100%;
+	vertical-align: top;
+}
+
+.left-collum-index h1 {
+	font-size: 1.4em;
+	color: #000000;
+	margin: 0 0 10px 0;
+}
+
+.right-collum-index {
+	background: #efefef;
+	margin: 0;
+	padding: 0;
+	/*border-left: solid 1px #aeaeae;*/
+	vertical-align: top;
+	position: relative;
+	width: 320px;
+}
+
+.footer {
+	color: #ffffff;
+	max-width: 1200px;
+	margin: 20px auto;
+	padding: 0;
+}
+
+.footer a:hover {
+	color: #cccccc;
+}
+
+.project-folders-menu {
+	background: #333333;
+	/*margin: 0 0 10px 0;*/
+	padding: 0 10px 0 0;
+}
+
+.project-folders-v {
+	margin: 0;
+	padding: 0;
+}
+
+.project-folders-v li {
+	list-style: none;
+	float: left;
+	background: #333333;
+	margin: 0 0 0 0;
+	padding: 0;
+}
+
+.project-folders-v li a {
+	padding: 6px 10px;
+	text-decoration: none;
+	display: block;
+	color: #999999;
+}
+
+.project-folders-v li a:hover {
+	padding: 6px 10px;
+	text-decoration: none;
+	display: block;
+	color: #999999;
+	background: bottom repeat-x #444444;
+}
+
+.project-folders-v-active a {
+	padding: 6px 10px;
+	text-decoration: none;
+	display: block;
+	color: #333333;
+	background: #efefef;
+	font-weight: bold;
+}
+
+.index-auth {
+	width: 300px;
+	margin: 0;
+	padding: 26px 0 0 0;
+}
+
+.auth-form {
+	position: absolute;
+	width: 300px;
+	right: 0;
+	background-color: #efefef;
+	padding: 20px 10px 8px 10px;
+}
+
+.iat {
+	color: #777777;
+	margin: 0;
+	padding: 0 0 10px 0;
+}
+
+.iat input {
+	width: 95% !important;
+	padding-left: 4px;
+}
+
+.iat label {
+	display: block;
+}
+
+.success {
+	position: absolute;
+	top: 128px;
+	left: 80px;
+	color: #0b8b0b;
+}
+
+.error {
+	color: #ff0000;
+	position: absolute;
+	top: 128px;
+	left: 80px;
+}
+
+.form-submit {
+	cursor: pointer;
+}
